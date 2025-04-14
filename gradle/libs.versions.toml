@@ -1,5 +1,8 @@
 [versions]
 #jetbrains
+
+commons-fork = "1.0"
+
 kotlin = "1.9.25"
 kotlin-immutable-collections = "0.3.6"
 #KSP
@@ -54,6 +57,9 @@ app-build-javaVersion = "VERSION_17"
 app-build-kotlinJVMTarget = "17"
 [libraries]
 #Android X
+
+fossify-commons-fork = { group = "com.github.G1tDev", name = "Commons", version.ref = "commons-fork" }
+
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
 androidx-biometric-ktx = { module = "androidx.biometric:biometric-ktx", version.ref = "androidx-biometricKtx" }
 androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "androidx-constraintlayout" }

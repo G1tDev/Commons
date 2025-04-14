@@ -98,6 +98,11 @@ dependencies {
     implementation(libs.androidx.lifecycle.process)
     implementation(libs.ez.vcard)
 
+    implementation(libs.fossify.commons.fork)
+
+    // Add this line if you need to use compose-material2
+    implementation(libs.compose.material2)
+
     implementation(libs.bundles.lifecycle)
     implementation(libs.bundles.compose)
     implementation(libs.compose.view.binding)
